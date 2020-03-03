@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Listing
 
-# Register your models here.
+
+# customize admin area
+admin.site.register(Listing)

@@ -1,0 +1,15 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+
+{% block branding %}
+
+<h1 id="head">Location App
+<img src="{% static 'img/logo.png' %}" alt="Location App" class="brand_img" width="90px">
+
+</h1>
+
+{% endblock %}
+{% block extrastyle %}
+  <link rel="stylesheet" href="{% static 'admin/css/admin.css' %}">
+{% endblock %}
